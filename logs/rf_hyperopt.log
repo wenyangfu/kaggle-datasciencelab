@@ -1,0 +1,25 @@
+INFO:hyperopt.tpe:tpe_transform took 0.002151 seconds
+INFO:hyperopt.tpe:TPE using 0 trials
+INFO:root:Training with params: 
+INFO:root:{'n_estimators': 600.0, 'max_depth': 5, 'min_samples_split': 1, 'max_features': None, 'min_samples_leaf': 10}
+INFO:hyperopt.fmin:job exception: unsupported operand type(s) for *: 'dict' and 'int'
+INFO:hyperopt.tpe:tpe_transform took 0.002184 seconds
+INFO:hyperopt.tpe:TPE using 0 trials
+INFO:root:Training with params: 
+INFO:root:{'min_samples_leaf': 10, 'max_depth': 20, 'min_samples_split': 5, 'max_features': None, 'n_estimators': 400.0}
+INFO:hyperopt.fmin:job exception: fit() takes from 3 to 4 positional arguments but 8 were given
+INFO:hyperopt.tpe:tpe_transform took 0.002165 seconds
+INFO:hyperopt.tpe:TPE using 0 trials
+INFO:root:Training with params: 
+INFO:root:{'min_samples_split': 1, 'n_estimators': 600.0, 'min_samples_leaf': 10, 'max_depth': 5, 'max_features': 'sqrt'}
+INFO:hyperopt.fmin:job exception: unorderable types: dict() <= int()
+INFO:hyperopt.tpe:tpe_transform took 0.002243 seconds
+INFO:hyperopt.tpe:TPE using 0 trials
+INFO:root:Training with params: 
+INFO:root:{'min_samples_leaf': 5, 'n_estimators': 600.0, 'max_features': None, 'max_depth': 20, 'min_samples_split': 100}
+INFO:hyperopt.fmin:job exception: unorderable types: str() <= int()
+INFO:hyperopt.tpe:tpe_transform took 0.002188 seconds
+INFO:hyperopt.tpe:TPE using 0 trials
+INFO:root:Training with params: 
+INFO:root:{'n_estimators': 600.0, 'max_depth': 5, 'min_samples_split': 5, 'max_features': 'log2', 'min_samples_leaf': 1}
+INFO:hyperopt.fmin:job exception: unorderable types: str() <= int()
